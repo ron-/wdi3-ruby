@@ -1,0 +1,8 @@
+def vol(l,w,h)
+
+  l*w*h
+
+end
+
+x = vol(1,2,3)
+puts x
