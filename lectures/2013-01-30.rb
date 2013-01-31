@@ -31,3 +31,6 @@ a.each do |i|
     puts "The odd number cubed is #{i**3}"
   end
 end
+
+#take a look at this...
+pry(main)> list.each { |i| (i % 7 == 0) ? (puts "#{i} is divisible by 7") : (puts "nope!") }
